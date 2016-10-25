@@ -1,5 +1,5 @@
 {
-  "name": "@gokhanayhan/react-leaflet-extended",
+  "name": "react-leaflet-extended",
   "version": "0.1.6",
   "main": "build/index.js",
   "description": "react leaflet extended",
