@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-extended",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "main": "build/index.js",
   "keywords": [
     "react",
@@ -25,7 +25,7 @@
     "underscore": "1.8.3"
   },
   "scripts": {
-    "prepublish": "rm -rf build && mkdir build && babel --plugins transform-react-jsx src --out-file build/index.js",
+    "prepublish": "rm -rf build && mkdir build && babel --plugins transform-react-jsx ./index.js src --out-file build/index.js",
     "test": "npm install && mocha"
   },
   "author": "Yavuz Mester & Gokhan Ayhan",
